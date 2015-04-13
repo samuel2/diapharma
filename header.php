@@ -14,6 +14,12 @@
 	<!-- Site header begin -->
 	
 	<header class="site-header">
+            
+            <!-- hd-search -->
+            <div class="hd-search">
+                <?php get_search_from(); ?>
+            </div><!-- /hd-search -->
+            
 	   <h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
 	   <h5>
 		<?php bloginfo('description'); ?> 
